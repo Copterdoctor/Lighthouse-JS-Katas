@@ -13,11 +13,9 @@ var conditionalSum = function(values, condition) {
         } 
       }
     } else if (condition === "odd") {
-      if (condition === "odd") {
         for (let i = 0; i < values.length; i++) {
           if (values[i] % 2 !== 0) {
             result += values[i];
-        }
       }
     }
   }
