@@ -96,7 +96,7 @@ var calculateChange = function(total, cash) {
     }
     return change;
   }else{
-    return cash - total;
+    return "Not enough cash to pay bill";
   }
 };
 
