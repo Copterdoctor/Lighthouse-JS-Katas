@@ -33,7 +33,7 @@ function generateBoard() {
 
 function queenThreat(chessBoard) {
   // Uncomment to Display the board that is submitted with queen represented as 1's
-  // console.log(chessBoard);
+  console.log(chessBoard);
 
   var whiteQueenPositionY = 0;
   var whiteQueenPostionX = 0;
